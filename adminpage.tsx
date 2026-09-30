@@ -7,6 +7,7 @@ import { createClient } from "@/lib/supabase/client";
 type LeadStatus = "new" | "contacted" | "converted";
 type StatusFilter = "all" | LeadStatus;
 
+
 type Lead = {
   id: string;
   name: string;
